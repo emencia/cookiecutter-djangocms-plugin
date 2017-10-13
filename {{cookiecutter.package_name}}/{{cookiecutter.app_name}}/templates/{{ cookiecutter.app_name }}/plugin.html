@@ -1,0 +1,25 @@
+{% raw %}{% load fb_versions %}{% spaceless %}
+<div class="{{ instance.kind }}">
+    <h2>{{ instance.title }}</h2>
+
+    {% if instance.description %}
+        <div class="description">
+            {{ instance.description|safe }}
+        </div>
+    {% endif %}
+
+    {% if instance.image %}
+        <div class="media">
+            <img src="{% version instance.image instance.kind %}" alt="{{ instance.title }}">
+        </div>
+    {% endif %}
+
+    {% if instance.url %}
+    <p class="text-right">
+        <a class="button" href="{{ instance.url }}"{% if instance.link_target %} target="blank"{% endif %}>Read more</a>
+    </p>
+    {% endif %}
+</div>
+
+{% endspaceless %}
+{% endraw %}

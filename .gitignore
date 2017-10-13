@@ -1,0 +1,17 @@
+*.py[co]
+
+# vim
+.*.sw?
+
+# virtualenv
+/venv/
+/bin/
+/build/
+
+/.ignore
+
+pip-selfcheck.json
+
+# py.test
+.cache
+__pycache__
