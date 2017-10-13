@@ -1,7 +1,7 @@
 {
     "project_name": "Project name",
     "package_name": "cmsplugin-{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-    "app_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
+    "app_name": "cmsplugin_{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
 
     "repo_username": "emencia",
     "repo_host": "github.com"

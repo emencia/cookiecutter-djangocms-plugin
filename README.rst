@@ -25,8 +25,8 @@ Naming
     as model and plugin names, such as:
 
     * For ``Sample bar`` project name;
-    * Package name will be ``cmsplugin-sample-bar`` (It is recommended to prefix name with ``cmsplugin-``);
-    * Application name will ``sample_bar``;
+    * Package name will be ``cmsplugin-sample-bar``;
+    * Application name will ``cmsplugin_sample_bar``;
     * Basic model and plugin names will be ``Samplebar``;
 
     You can change package and application names during project creation.
